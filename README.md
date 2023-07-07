@@ -1,7 +1,7 @@
 # Local StarCoder Inference Server
 
 ## Installation & venv
-1. Install `pyenv`
+1. Install `pyenv` (SEE https://realpython.com/intro-to-pyenv/)
 2. Setup `pyenv` in `$SHELL`
 3. `pyenv install 3.11.4`
 4. `pyenv virtualenv 3.11.4 starcoder_py311`

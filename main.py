@@ -30,7 +30,7 @@ async def api(request: Request):
 def main():
     global generator
     args = get_parser().parse_args()
-    generator = StarCoder(args.pretrained, device="cuda", device_map='auto')
+    generator = StarCoder(args.pretrained, device_map='auto')
     uvicorn.run(app, host=args.host, port=args.port)
 
 
